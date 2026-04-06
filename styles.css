@@ -107,13 +107,18 @@ img {
   display: inline-block;
   margin-top: 0.85rem;
   text-decoration: none;
-  color: #5f3f18;
+  color: #4a3212;
   font-weight: 700;
-  border-bottom: 1px solid #b88548;
+  background: #f8efdf;
+  border: 1px solid #c8b08a;
+  border-radius: 999px;
+  padding: 0.45rem 0.85rem;
+  box-shadow: 0 4px 10px rgba(73, 52, 26, 0.12);
 }
 
 .section-link:hover {
   color: #3a2710;
+  background: #f1e3ca;
 }
 
 #what-is-fast-fashion,
@@ -217,13 +222,13 @@ h1 {
 }
 
 .harmful-zone {
-  margin-top: 1rem;
+  margin-top: 0;
   background: #e7d7bc;
-  padding: 0.4rem 0 0.6rem;
+  padding: 0 0 0.6rem;
 }
 
 .harmful-effects-title {
-  margin-top: 0.6rem;
+  margin-top: 0;
   padding: 1.3rem 1.1rem 0.9rem;
   border-top: 2px solid #b88548;
   border-bottom: 1px solid var(--line);
