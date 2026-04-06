@@ -1,6 +1,7 @@
 // Paste your real image URLs here as you get them.
 const IMAGE_URLS = {
   hero: "",
+  "what-is": "",
   environmental: "",
   human: "",
   consumer: "",
