@@ -38,42 +38,54 @@ img {
 
 .toc {
   position: fixed;
-  top: 50%;
-  right: 1.1rem;
-  transform: translateY(-50%);
+  top: 1rem;
+  bottom: 1rem;
+  left: 1rem;
   z-index: 30;
   display: flex;
   flex-direction: column;
-  gap: 0.45rem;
-  width: min(230px, 32vw);
-  background: rgba(255, 253, 248, 0.9);
-  border: 1px solid var(--line);
+  gap: 0.35rem;
+  justify-content: flex-start;
+  width: min(170px, 24vw);
+  background: linear-gradient(180deg, rgba(243, 235, 220, 0.96), rgba(236, 226, 206, 0.9));
+  border: 1px solid #c8bda8;
+  border-left: 4px solid #b88548;
   border-radius: 14px;
-  padding: 0.8rem;
+  padding: 1rem 0.55rem;
   backdrop-filter: blur(4px);
-  box-shadow: 0 10px 24px rgba(30, 25, 15, 0.14);
+  box-shadow: 0 14px 30px rgba(35, 26, 11, 0.2);
 }
 
 .toc-title {
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: #54452f;
   font-weight: 700;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.35rem;
+  padding: 0 0.3rem;
 }
 
 .toc a {
   text-decoration: none;
-  color: var(--text);
-  font-size: 0.9rem;
+  color: #2b261d;
+  font-size: 0.82rem;
   font-weight: 600;
-  padding: 0.35rem 0.4rem;
-  border-radius: 8px;
+  padding: 0.45rem 0.45rem;
+  border-radius: 7px;
+  line-height: 1.35;
 }
 
 .toc a:hover {
-  background: #eee6d7;
+  background: rgba(255, 255, 255, 0.45);
+}
+
+.toc-separate-link {
+  margin-top: auto;
+  border-top: 1px dashed #b9aa91;
+  padding-top: 0.65rem;
+  font-size: 0.76rem;
+  color: #5f3f18;
 }
 
 #environmental,
