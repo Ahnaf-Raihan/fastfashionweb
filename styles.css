@@ -333,9 +333,20 @@ h1 {
   text-align: center;
 }
 
+.subpage-image {
+  width: 50%;
+  max-width: 520px;
+  min-width: 260px;
+}
+
 @media (max-width: 860px) {
   .toc {
     display: none;
+  }
+
+  .subpage-image {
+    width: 100%;
+    min-width: 0;
   }
 
   .content-section,
