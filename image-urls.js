@@ -6,6 +6,8 @@ const IMAGE_URLS = {
   textile: "https://i.imgur.com/4eWfA68.png",
   "textile-page-1": "https://i.imgur.com/lMCwiIp.png",
   "textile-page-2": "https://i.imgur.com/cHpZWOw.png",
+  "microplastics-home": "https://i.imgur.com/PY0UX6Q.png",
+  "microplastics-page": "https://i.imgur.com/9yq8O0L.png",
   consumer: "https://i.pinimg.com/1200x/db/4e/10/db4e10e18f6e42cb99fd61c1653e2991.jpg",
 };
 
