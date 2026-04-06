@@ -114,7 +114,7 @@ img {
   min-height: 100vh;
   display: grid;
   align-items: center;
-  background-image: var(--hero-image, url("images/header-bg.jpg"));
+  background-image: var(--hero-image, linear-gradient(135deg, #42361f, #1f1a11));
   background-size: cover;
   background-position: center;
   isolation: isolate;
@@ -182,6 +182,33 @@ h1 {
 .hero-link:hover {
   background: rgba(255, 255, 255, 0.29);
   transform: translateY(-2px);
+}
+
+.hero-explainer {
+  margin-top: 1.25rem;
+  max-width: 62ch;
+  background: rgba(0, 0, 0, 0.24);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 12px;
+  padding: 0.95rem 1rem;
+}
+
+.hero-explainer h2,
+.hero-explainer h3 {
+  font-family: "Manrope", sans-serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 0.35rem;
+}
+
+.hero-explainer h3 {
+  margin-top: 0.7rem;
+}
+
+.hero-explainer p {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.92);
 }
 
 .content-section {

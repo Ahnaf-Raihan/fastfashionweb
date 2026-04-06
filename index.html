@@ -25,7 +25,7 @@
       <a class="toc-separate-link" href="take-action.html">Take Action</a>
     </nav>
 
-    <header class="hero" id="top" style="--hero-image: url('images/header-bg.jpg')">
+    <header class="hero" id="top" data-image-key="hero">
       <div class="overlay"></div>
       <div class="hero-content container">
         <p class="eyebrow">Global Awareness Project</p>
@@ -35,6 +35,19 @@
           ecosystems, and future generations.
         </p>
         <a class="hero-link" href="#sections">Discover the Story</a>
+
+        <section class="hero-explainer" aria-label="Fast fashion explainer">
+          <h2>What is fast fashion?</h2>
+          <p>
+            Fast fashion is a clothing production model focused on quickly turning new trends into
+            low-cost items sold in high volumes.
+          </p>
+          <h3>Harmful effects</h3>
+          <p>
+            This pace can increase textile waste, pollution, and pressure on workers through tight
+            deadlines and low production costs.
+          </p>
+        </section>
       </div>
     </header>
 
@@ -50,7 +63,12 @@
           <p><a class="section-link" href="environmental.html">Open environmental page</a></p>
         </div>
         <div class="image-block">
-          <img src="images/environmental-impact.jpg" alt="Pile of discarded clothing in a waste site" loading="lazy" />
+          <img
+            src="https://via.placeholder.com/1200x800?text=Add+Environmental+Image+URL"
+            data-image-key="environmental"
+            alt="Pile of discarded clothing in a waste site"
+            loading="lazy"
+          />
         </div>
       </section>
 
@@ -64,7 +82,12 @@
           <p><a class="section-link" href="human-impact.html">Open human impact page</a></p>
         </div>
         <div class="image-block">
-          <img src="images/human-impact.jpg" alt="Factory environment representing garment production" loading="lazy" />
+          <img
+            src="https://via.placeholder.com/1200x800?text=Add+Human+Impact+Image+URL"
+            data-image-key="human"
+            alt="Factory environment representing garment production"
+            loading="lazy"
+          />
         </div>
       </section>
 
@@ -78,7 +101,12 @@
           <p><a class="section-link" href="consumer-power.html">Open consumer power page</a></p>
         </div>
         <div class="image-block">
-          <img src="images/consumer-power.jpg" alt="Person browsing sustainable clothing options" loading="lazy" />
+          <img
+            src="https://via.placeholder.com/1200x800?text=Add+Consumer+Power+Image+URL"
+            data-image-key="consumer"
+            alt="Person browsing sustainable clothing options"
+            loading="lazy"
+          />
         </div>
       </section>
 
@@ -95,6 +123,7 @@
         </div>
       </section>
     </main>
+    <script src="image-urls.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
