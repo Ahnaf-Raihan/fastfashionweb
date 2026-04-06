@@ -3,7 +3,9 @@ const IMAGE_URLS = {
   hero: "",
   "what-is": "https://i.imgur.com/CjWOKM5.png",
   environmental: "https://i.imgur.com/o49qlKb.png",
-  textile: "",
+  textile: "https://i.imgur.com/4eWfA68.png",
+  "textile-page-1": "https://i.imgur.com/lMCwiIp.png",
+  "textile-page-2": "https://i.imgur.com/cHpZWOw.png",
   consumer: "https://i.pinimg.com/1200x/db/4e/10/db4e10e18f6e42cb99fd61c1653e2991.jpg",
 };
 
