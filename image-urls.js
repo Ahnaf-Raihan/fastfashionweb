@@ -4,7 +4,7 @@ const IMAGE_URLS = {
   "what-is": "",
   environmental: "",
   human: "",
-  consumer: "",
+  consumer: "https://i.pinimg.com/1200x/db/4e/10/db4e10e18f6e42cb99fd61c1653e2991.jpg",
 };
 
 function applyImageUrls() {

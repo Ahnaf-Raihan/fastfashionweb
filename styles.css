@@ -36,6 +36,10 @@ img {
   margin: 0 auto;
 }
 
+#sections {
+  background: #ffffff;
+}
+
 .toc {
   position: fixed;
   top: 5.5rem;
@@ -205,16 +209,21 @@ h1 {
 }
 
 .what-is-section {
-  background: var(--surface);
+  background: transparent;
   margin-top: 1.2rem;
-  border: 1px solid var(--line);
-  border-radius: 18px;
-  padding: clamp(1.5rem, 5vw, 3rem);
-  box-shadow: 0 10px 24px rgba(40, 32, 20, 0.08);
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.harmful-zone {
+  margin-top: 1rem;
+  background: #e7d7bc;
+  padding: 0.4rem 0 0.6rem;
 }
 
 .harmful-effects-title {
-  margin-top: 2.4rem;
+  margin-top: 0.6rem;
   padding: 1.3rem 1.1rem 0.9rem;
   border-top: 2px solid #b88548;
   border-bottom: 1px solid var(--line);
