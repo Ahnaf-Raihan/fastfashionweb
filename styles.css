@@ -38,8 +38,8 @@ img {
 
 .toc {
   position: fixed;
-  top: 1rem;
-  bottom: 1rem;
+  top: 5.5rem;
+  bottom: auto;
   left: 1rem;
   z-index: 30;
   display: flex;
@@ -47,6 +47,7 @@ img {
   gap: 0.35rem;
   justify-content: flex-start;
   width: min(170px, 24vw);
+  max-height: 58vh;
   background: linear-gradient(180deg, rgba(243, 235, 220, 0.96), rgba(236, 226, 206, 0.9));
   border: 1px solid #c8bda8;
   border-left: 4px solid #b88548;
@@ -81,11 +82,24 @@ img {
 }
 
 .toc-separate-link {
-  margin-top: auto;
+  margin-top: 0.25rem;
   border-top: 1px dashed #b9aa91;
   padding-top: 0.65rem;
   font-size: 0.76rem;
   color: #5f3f18;
+}
+
+.section-link {
+  display: inline-block;
+  margin-top: 0.85rem;
+  text-decoration: none;
+  color: #5f3f18;
+  font-weight: 700;
+  border-bottom: 1px solid #b88548;
+}
+
+.section-link:hover {
+  color: #3a2710;
 }
 
 #environmental,
@@ -264,6 +278,13 @@ h1 {
 
 .cta-button-secondary:hover {
   background: rgba(255, 255, 255, 0.15);
+}
+
+.back-home-wrap {
+  margin-top: 2.5rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--line);
+  text-align: center;
 }
 
 @media (max-width: 860px) {
